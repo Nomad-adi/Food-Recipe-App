@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/ign_name"
+        android:textSize="12sp"
+        android:text="Sugar"
+        android:textStyle="bold"
+        android:textColor="@color/maindark"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/ign_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="2dp"
+        android:text=""
+        android:textColor="@color/maindark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>
